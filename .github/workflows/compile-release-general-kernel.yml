@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "wag2929"
         type: choice
         options:
+          - wag2929
           - unifreq
           - codesnas
       kernel_version:
